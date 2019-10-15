@@ -22,7 +22,7 @@ type Domain struct {
 
 	Variants []Variant
 
-	Nameservers []Nameserver
+	Nameservers []Nameserver `rdap:"nameServers"`
 
 	SecureDNS *SecureDNS
 
